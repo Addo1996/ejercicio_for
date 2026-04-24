@@ -8,14 +8,16 @@ function ejecutar(numEjercicio){
     if(numEjercicio == 1){
         listarNumeros();
     }else if(numEjercicio == 2){
-        lsitarNumerosReversa();
+        listarNumerosReversa();
     }else if(numEjercicio == 3){
         listarPares();
+    }else if(numEjercicio == 4){
+        listarImpares();
     }
 
 }
 
-function lsitarNumerosReversa(){
+function listarNumerosReversa(){
     for(let i = 3; i > 0; i--){
         console.log(i);
     }
@@ -23,6 +25,12 @@ function lsitarNumerosReversa(){
 
 function listarPares(){
     for(let i = 0; i < 10; i+=2){
+        console.log(i);
+    }
+}
+
+function listarImpares(){
+    for(let i = 1; i <= 7; i +=2  ){
         console.log(i);
     }
 }
