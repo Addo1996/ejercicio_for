@@ -93,3 +93,30 @@ footer {
         max-width: 250px;
     }
 }
+
+/* CONTENEDOR INPUT */
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+/* INPUT */
+.inputs input {
+    width: 220px;
+    padding: 14px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    background: #111;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 10px rgba(0,255,255,0.3);
+}
+
+/* PLACEHOLDER */
+.inputs input::placeholder {
+    color: #7ddddd;
+}
